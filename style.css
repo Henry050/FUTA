@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-size: large;
+   font-weight: lighter; 
+   font-family:  'sans-serif';
+   @media screen {
+        max-width: 1500px;
+        min-width: 350px;
+   }
+}
+
+header{
+    background-color: black;
+    color: white;  
+}
+
+header  nav h1{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.first nav{
+    display: flex;
+    background-color: white;
+    color: #636363;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.first nav  .fisrt-ul{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.first nav  .fisrt-ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.second-nav .second-ul{
+    display: flex;
+    background-color: #181616;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+    font-family: 'montserrat';
+}
+
+.second-nav .second-ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.second-nav .second-ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.third-nav{
+    background-color: #2e2b2b;
+    font-size: 12px;
+}
+
+.third-nav ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+
+.third-nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.third-nav ul .snu-1{
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+.third-nav ul .list-section{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.third-nav ul .list-section li{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    /* padding-bottom: 20px; */
+}
+
+.third-nav ul .list-section li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-section{
+    margin-top: 30px;
+    margin-left: 150px; 
+    margin-right: 300px; 
+    margin-bottom: 30px;
+}
+
+main{
+    margin-left: 150px;  
+}
+
+main .sections .sections-2{
+    margin-top: 30px;
+}
+
+.sections{
+    justify-content: space-around;
+}
+
+.model-sec{
+    /* border-radius: 50px; */
+    display: flex;
+    background-image: url(./pages/Locpic.jpg);
+    background-position: center;
+    background-position-y: top;
+    margin-top: 30px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    height: 500px;
+}
+
+.PrA{
+    margin-top: 20px;
+    margin-left: 180px;
+    color: #fff;
+}
+
+.act{
+    font-size: larger;
+}
+
+.section-modeling{
+    display: flex;
+    gap: 80px;
+    border-radius: 30px;
+    /* background-color: aqua; */
+    margin-top: 90px;
+    margin-left: 180px;
+    height: 120px;
+    position: absolute;
+}
+
+.first-h5{
+    background-color: aquamarine;
+      text-align: center;
+    height: 305px;
+}
+
+.first-h5 p{
+    background-color: #fff;
+    padding: 50px;
+    position: sticky;
+    margin-top: 165px;
+    width: fit-content;
+    position: relative;
+}
+
+.second-h5{
+    background-color: coral;
+    text-align: center;
+    height: 305px;
+}
+
+.second-h5 p{
+    background-color: #fff;
+    padding: 50px;
+    position: sticky;
+    margin-top: 165px;
+    width: fit-content;
+    position: relative;
+}
+
+.third-h5{
+    background-color: firebrick;
+    height: 305px;
+}
+
+.third-h5 p{
+    background-color: #fff;
+    padding: 50px;
+    /* position: sticky; */
+    margin-top: 165px;
+    width: fit-content;
+    position: relative; 
+}
+
+.last-section{
+    background-color: #494444;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 600px;
+}
+
+button{
+    background-color: #01bafd;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    border: none;
+}
+
+button a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 15px;
+}
+
+footer{
+    background-color: #2e2b2b;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: cornflowerblue;
+    transition:all 1s ease-in;
+}
+
+footer p a:hover{
+    color: color( rgb(103, 103, 199));
+   
+}
